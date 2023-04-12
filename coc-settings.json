@@ -1,0 +1,28 @@
+{
+  "snippets.ultisnips.directories": ["ultisnips", "custom-snips"],
+  "tsserver.formatOnType": true,
+  "coc.preferences.formatOnType": true,
+  "prettier.disableSuccessMessage": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.filetypes": ["javascript", "javascriptreact", "typescript",
+    "typescriptreact"],
+  "coc.preferences.formatOnSaveFiletypes": [
+    "dart",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "diagnostic.warningSign": "\uf071",
+  "diagnostic.infoSign": "\uf834",
+  "diagnostic.errorSign": "\uf7ed",
+  "diagnostic.hintSign": "\uf5bf",
+  "flutter.provider.hot-reload": true,
+    "languageserver": {
+        "rust": {
+            "command": "rust-analyzer",
+            "filetypes": ["rust"],
+            "rootPatterns": ["Cargo.toml"]
+        }
+    }
+}
