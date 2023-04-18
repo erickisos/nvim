@@ -165,6 +165,11 @@ _G.packer_plugins = {
     path = "/Users/erickisos/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   },
+  ["vim-gitgutter"] = {
+    loaded = true,
+    path = "/Users/erickisos/.local/share/nvim/site/pack/packer/start/vim-gitgutter",
+    url = "https://github.com/airblade/vim-gitgutter"
+  },
   ["which-key.nvim"] = {
     loaded = true,
     path = "/Users/erickisos/.local/share/nvim/site/pack/packer/start/which-key.nvim",
