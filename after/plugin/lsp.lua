@@ -22,8 +22,9 @@ local cmp_mappings = lsp.defaults.cmp_mappings({
 lsp.on_attach(function(client, bufnr)
 	vim.keymap.set('n', 'gd', function() vim.lsp.buf.definition() end, { buffer= bufnr, remap = false, desc = '[G]o to [D]efinition' })
     vim.keymap.set('n', 'gr', function() vim.lsp.buf.references() end, { buffer = bufnr, remap = false, desc = '[G]o to [R]eferences' })
-	vim.keymap.set('n', 'K', function() vim.lsp.buf.hover() end, { buffer= bufnr, remap = false, desc = '' })
+	vim.keymap.set('n', 'K', function() vim.lsp.buf.hover() end, { buffer= bufnr, remap = false, desc = 'Open hover description' })
 	vim.keymap.set('n', '<leader>vws', function() vim.lsp.buf.workspace_symbol() end, { buffer= bufnr, remap = false, desc = '' })
+    vim.keymap.set('n', '<leader>ca', function() vim.lsp.buf.code_action() end, { buffer= bufnr, remap = false, desc = 'Code actions' })
 end)
 
 lsp.setup()

@@ -1,6 +1,12 @@
 vim.g.mapleader = " "
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex, {desc = '[P]roject [V]iew'})
 
+-- Navigation
+vim.keymap.set('i', '<C-a>', '^', { desc = 'Go to the beginning of the line' })
+vim.keymap.set('i', '<C-e>', '$', { desc = 'Go to the end of the line' })
+vim.keymap.set('n', '<C-a>', '^', { desc = 'Go to the beginning of the line' })
+vim.keymap.set('n', '<C-e>', '$', { desc = 'Go to the end of the line' })
+
 -- Move selection with J and K
 vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv", { desc = 'Move selection Up' })
 vim.keymap.set('v', 'K', ":m '<-2<CR>gv=gv", { desc = 'Move selection Down' })
