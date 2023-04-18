@@ -84,10 +84,10 @@ _G.packer_plugins = {
     path = "/Users/erickisos/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
-  ["fidget.nvim"] = {
+  ["copilot.vim"] = {
     loaded = true,
-    path = "/Users/erickisos/.local/share/nvim/site/pack/packer/start/fidget.nvim",
-    url = "https://github.com/j-hui/fidget.nvim"
+    path = "/Users/erickisos/.local/share/nvim/site/pack/packer/start/copilot.vim",
+    url = "https://github.com/github/copilot.vim"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
